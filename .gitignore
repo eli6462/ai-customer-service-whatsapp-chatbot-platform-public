@@ -10,6 +10,9 @@ env_files/
 __pycache__/
 *.pyc
 
+# old readme
+README.txt
+
 
 
 
