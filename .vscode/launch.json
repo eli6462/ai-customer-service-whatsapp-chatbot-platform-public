@@ -1,0 +1,20 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "env": {
+                "FLASK_APP": "main.py",
+                "FLASK_ENV": "venv",
+                "GOOGLE_APPLICATION_CREDENTIALS": "G:/Flask/AI_chatbot_escape_rooms_api-whatsapp-api-integration/env_files/ai-chatbot-translate-api-886891de2fce.json" // Set this to the path of your Google credentials
+            },
+            "console": "integratedTerminal"
+        }
+    ]
+}
